@@ -1,75 +1,43 @@
-# Nuxt Minimal Starter
+# Поиск работы/работников
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Этот проект является дипломной работой для **Caspian College** на тему:
+> "Разработка информационной системы для поиска вакансий и сотрудников."
 
-## Setup
+## Стек технологий
 
-Make sure to install dependencies:
+- **Frontend**: [Nuxt 3](https://nuxt.com/docs/getting-started/introduction) — современный фреймворк для создания Vue-приложений.
 
-```bash
-# npm
-npm install
+## Установка и запуск
 
-# pnpm
-pnpm install
+### Требования
 
-# yarn
-yarn install
+- Node.js: 20.11.1
 
-# bun
-bun install
-```
+### Установка
 
-## Development Server
+1. Клонируйте репозиторий:
+   
+   ```bash
+   git clone https://github.com/Zh3nyaZh3nya/job-search.git
+   cd job-search
 
-Start the development server on `http://localhost:3000`:
+3. Установите зависимости для frontend:
+   
+   ```bash
+   cd frontend
+   yarn install
 
-```bash
-# npm
-npm run dev
+## Настройте файл окружения .env для frontend. Примерные файлы .env.example можно найти в папках frontend.
 
-# pnpm
-pnpm dev
+### Запустите сервер разработки.
 
-# yarn
-yarn dev
+- Для frontend:
 
-# bun
-bun run dev
-```
+  ```bash
+  yarn dev
 
-## Production
+## Структура проекта
+frontend/ - Nuxt 3 проект для интерфейса пользователя
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Контакты
+Для вопросов и предложений свяжитесь со мной по email: evgeniq.golovkin@gmail.com или https://t.me/Zh3nya_qwe.
